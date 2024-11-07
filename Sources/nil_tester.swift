@@ -14,7 +14,7 @@ func evenTime () -> String? {
 	if minute % 2 == 0 {
 		return "\(buildTime(date: date, cal: cal))"
 	}
-	print("the minute isn't even, so you don't get the time")
+	print("the minute isn't even")
 	return nil
 }
 func buildTime (date: Date, cal: Calendar) -> String {

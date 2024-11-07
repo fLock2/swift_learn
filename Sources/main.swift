@@ -60,3 +60,7 @@ let time = evenTime()
 // evenTime()
 print("\(time ?? "there is no time")")
 
+let emptyArr: [Int] = [];
+if emptyArr.isEmpty {
+	print("this bitch empty")
+}
